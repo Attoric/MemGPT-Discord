@@ -121,7 +121,7 @@ client.on('messageCreate', async message => {
 
                 let finalMessage = '';
                 // now lets format the message so the inner dialog is italicized and has thought bubbles around it
-                finalMessage = '$#('+agent+'):thought_balloon: *' + innerDialog + '* :thought_balloon: \n' + ' ' + aiMessage + ' ';
+                finalMessage = '('+agent+'):thought_balloon: *' + innerDialog + '* :thought_balloon: \n' + ' ' + aiMessage + ' ';
                 
                 //replace the thinking with check on message
                 message.reactions.cache.get('🤔').remove();
