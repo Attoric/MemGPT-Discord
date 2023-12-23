@@ -30,8 +30,9 @@ For self hosting:
 
 # Support
 
-If you need help with the bot or have any questions feel free to join the Attoric discord server: https://discord.gg/attoric
-For MemGPT support join the MemGPT discord server: https://discord.gg/wuQuyZ8dR6
+If you need help with the bot or have any questions feel free to join:
+- Attoric discord server for direct bot support: https://discord.gg/attoric
+- MemGPT support join the MemGPT discord server: https://discord.gg/wuQuyZ8dR6
 
 # Contributing
 
