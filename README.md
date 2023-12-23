@@ -27,3 +27,8 @@ For self hosting:
 2. Run `npm ci`
 3. copy `example-config.json` to  `config.json` and fill in the variables for your environment 
 4. Run `node index.js`
+
+# Contributing
+
+Feel free to open a PR if you'd like to contribute to the project. We're always looking for more people to help out! 
+I am also fairly new to this so if you see something that could be done better please let me know!
