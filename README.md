@@ -24,6 +24,6 @@ For self hosting:
 # Setup Guide
 
 1. Clone the repo
-2. Run `npm install`
+2. Run `npm ci`
 3. copy `example-config.json` to  `config.json` and fill in the variables for your environment 
 4. Run `node index.js`
