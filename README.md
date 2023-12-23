@@ -4,6 +4,7 @@ MemGPT - [Website](https://memgpt.ai/) | [Docs](https://memgpt.readme.io/docs) |
 # Features
 Current:
 - Multi-turn conversation in one discord channel, and using one agent_id reply to any messages posted by any user or bot in that channel except for itself.
+- You can also use the prefix # to your message in the channel so the bot does not reply to it.
 ![img](https://i.gyazo.com/f196ae7a40517e80a565596b6d58ffaf.png)
 
 Coming soon:
