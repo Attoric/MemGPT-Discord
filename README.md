@@ -1,5 +1,11 @@
-# MemGPT-Discord
+# MemGPT-DiscordJS
 MemGPT - [Website](https://memgpt.ai/) | [Docs](https://memgpt.readme.io/docs) | [Github](https://github.com/cpacker/MemGPT)
+
+Disclaimer: This is not the bot used in the official MemGPT Discord Server.
+
+This project is maintained by Sane from Attoric Games.
+
+Attoric - [Website](https://attoric.net) | [Discord](https://discord.gg/attoric)
 
 # Features
 Current:
