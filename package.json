@@ -1,0 +1,30 @@
+{
+  "name": "memgpt-discord",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A discordJS bot to connect to MemGPT APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Attoric/MemGPT-Discord.git"
+  },
+  "keywords": [
+    "attoric",
+    "memgpt",
+    "discord",
+    "discordjs"
+  ],
+  "author": "Attoric Games",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Attoric/MemGPT-Discord/issues"
+  },
+  "homepage": "https://github.com/Attoric/MemGPT-Discord#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-fetch": "^3.3.2"
+  }
+}
