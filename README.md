@@ -28,6 +28,11 @@ For self hosting:
 3. copy `example-config.json` to  `config.json` and fill in the variables for your environment 
 4. Run `node index.js`
 
+# Support
+
+If you need help with the bot or have any questions feel free to join the Attoric discord server: https://discord.gg/attoric
+For MemGPT support join the MemGPT discord server: https://discord.gg/wuQuyZ8dR6
+
 # Contributing
 
 Feel free to open a PR if you'd like to contribute to the project. We're always looking for more people to help out! 
