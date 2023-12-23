@@ -6,7 +6,7 @@ MemGPT - https://github.com/cpacker/MemGPT
 
 # Prerequistes
 
-Using our hosted bot:
+Using our hosted bot: (Coming soon)
 - A MemGPT endpoint to connect to
 
 For self hosting: 
