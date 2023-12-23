@@ -138,7 +138,7 @@ client.on('messageCreate', async message => {
 
 
 async function saveAIMessages(agent) {
-    const url = memgpt_url + '/api/agents/command';
+    const url = memgpt_url + '/agents/command';
 
     const body = {
         user_id: 'null',
@@ -161,7 +161,7 @@ async function saveAIMessages(agent) {
 }
 
 async function generateAIMessage(prompt, agent) {
-    const url = memgpt_url + '/api/agents/message';
+    const url = memgpt_url + '/agents/message';
 
     const body = {
         user_id: 'null',
