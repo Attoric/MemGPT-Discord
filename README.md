@@ -1,8 +1,17 @@
 # MemGPT-Discord
-This repo powers a DiscordJS Bot connection to a MemGPT API.
+MemGPT - [Website](https://memgpt.ai/) | [Docs](https://memgpt.readme.io/docs) | [Github](https://github.com/cpacker/MemGPT)
 
-MemGPT - https://github.com/cpacker/MemGPT
+# Features
+Current:
+- Multi-turn conversation in one discord channel, and using one agent_id reply to any messages posted by any user or bot in that channel except for itself.
+![img](https://i.gyazo.com/f196ae7a40517e80a565596b6d58ffaf.png)
 
+Coming soon:
+- Per user agents
+- Changing the channel wide agent on the fly
+- Editing memory and more.
+
+I plan on enabling this bot to perform all functions available via the MemGPT API.
 
 # Prerequistes
 
@@ -30,8 +39,9 @@ For self hosting:
 
 # Support
 
-If you need help with the bot or have any questions feel free to join the Attoric discord server: https://discord.gg/attoric
-For MemGPT support join the MemGPT discord server: https://discord.gg/wuQuyZ8dR6
+If you need help with the bot or have any questions feel free to join:
+- Attoric discord server for direct bot support: https://discord.gg/attoric
+- MemGPT support join the MemGPT discord server: https://discord.gg/wuQuyZ8dR6
 
 # Contributing
 
