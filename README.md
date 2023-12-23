@@ -2,7 +2,6 @@
 This repo powers a DiscordJS Bot connection to a MemGPT API.
 MemGPT - https://github.com/cpacker/MemGPT
 
-Author: SaneGaming
 
 # Prerequistes
 
