@@ -4,5 +4,6 @@
     "guild_id": "",
     "channel_id": "",
     "memgpt_url": "",
-    "agent_id": ""
+    "agent_id": "",
+    "admin_role_id": ""
 }
