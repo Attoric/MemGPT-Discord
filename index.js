@@ -11,7 +11,7 @@ import { Client, Collection, Events, GatewayIntentBits, ActivityType, TextInputS
 import { SlashCommandBuilder, EmbedBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder, ChannelType, PermissionsBitField, ModalBuilder, TextInputComponent, StringSelectMenuBuilder, SelectMenuBuilder, StringSelectMenuOptionBuilder, TextInputBuilder } from 'discord.js';
 import config from './config.json' assert { type: 'json' };
 
-const { discord_token, discord_application_id, channel_id, memgpt_url, agent_id } = config;
+const { discord_token, discord_application_id, channel_id, memgpt_url, agent_id, global_user_uuid } = config;
 
 // Create a new client instance
 const client = new Client({
@@ -168,7 +168,7 @@ async function saveAIMessages(agent) {
     const url = memgpt_url + '/agents/command';
 
     const body = {
-        user_id: 'null',
+        user_id: global_user_uuid,
         agent_id: agent,
         command: 'save',
     };
@@ -195,11 +195,14 @@ async function generateAIMessage(prompt, agent) {
     const url = memgpt_url + '/agents/message';
 
     const body = {
-        user_id: 'null',
+        user_id: global_user_uuid,
         agent_id: agent,
         message: prompt,
+        role: "user",
         stream: false,
     };
+
+    console.log(JSON.stringify(body));
 
     const response = await fetch(url, {
         method: 'post',

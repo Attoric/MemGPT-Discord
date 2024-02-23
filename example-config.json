@@ -5,5 +5,6 @@
     "channel_id": "",
     "memgpt_url": "",
     "agent_id": "",
-    "admin_role_id": ""
+    "admin_role_id": "",
+    "global_user_uuid": ""
 }
